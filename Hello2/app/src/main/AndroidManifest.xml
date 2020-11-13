@@ -3,13 +3,18 @@
     package="com.example.hello2">
 
     <application
+        android:name=".HelloApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SplashActivity"></activity>
+        <activity android:name=".courses"></activity>
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity android:name=".SplashActivity" />
         <activity android:name=".RegistrationActivity" />
         <activity android:name=".CoursesActivity" />
         <activity android:name=".MainActivity">
